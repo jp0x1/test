@@ -1,0 +1,316 @@
+/* Universal GitHub-inspired theme */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    background-color: #0d1117; /* GitHub's dark background color */
+    color: #c9d1d9; /* GitHub's text color */
+}
+
+/* Ensure vertical stacking for reasons on why.html */
+.gitbad-reasons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Form wrapper for vertical stacking */
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.form-wrapper p {
+    margin-top: 16px;
+    font-size: 1rem;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    background: #0d1117;
+    color: #c9d1d9;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+.header {
+    background-color: #161b22; /* GitHub's header background */
+    border-bottom: 1px solid #21262d; /* GitHub's border color */
+    padding: 16px 0;
+    text-align: center;
+}
+
+.header .logo {
+    color: #c9d1d9;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header nav a {
+    color: #c9d1d9;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.header nav a:hover {
+    color: #58a6ff; /* GitHub's link hover color */
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.logo {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+nav a {
+    color: #c9d1d9;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #58a6ff;
+}
+nav .btn {
+    background: #238636;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 6px;
+    margin-left: 16px;
+    font-weight: bold;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+    flex: 1;
+    background-color: #0d1117; /* GitHub's dark background color */
+    color: #c9d1d9; /* GitHub's text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.main-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+.main-content .bad {
+    color: #f85149;
+    font-weight: bold;
+}
+
+.why-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    margin-bottom: 32px;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+.signup-form input[type="email"],
+.signup-form input[type="text"],
+.signup-form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    background: #161b22;
+    color: #c9d1d9;
+    font-size: 1rem;
+    width: 250px;
+    margin-bottom: 10px; /* Add spacing between fields */
+    display: block;
+}
+.signup-form input[type="email"]:last-child,
+.signup-form input[type="text"]:last-child,
+.signup-form input[type="password"]:last-child {
+    margin-bottom: 0;
+}
+.signup-form button {
+    background: #238636;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.signup-form button:hover {
+    background: #2ea043;
+}
+.footer {
+    background-color: #161b22;
+    border-top: 1px solid #21262d;
+    padding: 16px 0;
+    text-align: center;
+    color: #c9d1d9;
+}
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #161b22;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-wrapper form {
+    width: 100%;
+}
+.form-wrapper p {
+    margin-top: 16px;
+    font-size: 0.9rem;
+}
+.form-wrapper a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+.form-wrapper a:hover {
+    text-decoration: underline;
+}
+
+/* Vertical navigation styles */
+.vertical-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.vertical-nav ul li {
+    margin: 10px 0;
+}
+
+.vertical-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.vertical-nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Form styles */
+.vertical-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #30363d; /* GitHub's input border color */
+    border-radius: 6px;
+    background: #161b22;
+    color: #c9d1d9;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #238636; /* GitHub's button color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background-color: #2ea043; /* GitHub's button hover color */
+}
+
+/* Notification styles for alerts */
+.notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: #161b22;
+    color: #c9d1d9;
+    padding: 12px 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    font-size: 14px;
+    font-weight: 500;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.notification.success {
+    border-left: 4px solid #238636;
+}
+
+.notification.error {
+    border-left: 4px solid #f85149;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
